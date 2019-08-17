@@ -6,6 +6,6 @@ def my_collect(collection)
     modified << yield(collection[i])
     i += 1
   end
-  
+  modified
 end 
 
